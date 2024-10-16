@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, World</title>
+</head>
+<body>
+<h2>Say hello</h2>
+<form method="get" action="/hello">
+  <label for="name">Name: </label> <!-The value of 'for' should match the id of the associated input element.-->
+  <input type="text" id="name" name="name"><br><br> <!-The id is used to link the label to the input, and it helps identify this specific element in JavaScript or CSS.-->
+                                                    <!-The name attribute is used to associate data with this input when the form is submitted (i.e. name=valueEntered).-->
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
